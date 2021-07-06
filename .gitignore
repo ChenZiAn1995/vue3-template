@@ -114,3 +114,5 @@ dist
 .pnp.*
 yarn.lock
 
+.idea/
+
