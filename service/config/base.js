@@ -64,7 +64,6 @@ module.exports = {
       // vue3 feature flags <http://link.vuejs.org/feature-flags>
       __VUE_OPTIONS_API__: 'true',
       __VUE_PROD_DEVTOOLS__: 'false',
-
       ...resolveClientEnv({ publicPath: config.dev.publicPath }),
     }),
   ],
